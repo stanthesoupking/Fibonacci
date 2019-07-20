@@ -32,11 +32,7 @@ fn main() {
 }
 
 fn fib(n: usize) -> usize {
-    let mut m: Vec<usize> = Vec::new();
-
-    // Push initial values of fib
-    m.push(1);
-    m.push(1);
+    let mut m: Vec<usize> = vec![1,1];
 
     // Do we need to generate further values
     if n > 1 {
